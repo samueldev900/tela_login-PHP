@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+body{
+    display: grid;
+    place-items: center;
+
+}
+form{
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+input{
+    width: 200px;
+}
+#button{
+    margin-top: 10px;
+    width: 208px;
+    cursor: pointer;
+}
+table{
+    border-collapse: collapse;
+    background-color: aquamarine;
+}
